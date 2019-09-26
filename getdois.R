@@ -77,9 +77,6 @@ resultset <- sapply(pages, function(x) {
 
 saveRDS(resultset, "items2017-2019.RDS")
 
-resultset <- readRDS("items2017-2019.RDS")
-
-
 # https://stackoverflow.com/a/54010908
 simple_rapply <- function(x, fn)
 {
